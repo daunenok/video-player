@@ -1,0 +1,47 @@
+html {
+	min-height: 100%;
+	background: linear-gradient(to right bottom, #3399ff, #e6f2ff);
+}
+body {
+}
+video {
+	display: block;
+	margin: 50px auto 0;
+	width: 80%;
+	min-width: 500px;
+	max-width: 800px;
+}
+.ctrl {
+	margin: 0 auto;
+	width: 80%;
+	min-width: 500px;
+	max-width: 800px;
+	height: 50px;
+	position: relative;
+	top: -49px;
+	overflow: hidden;
+	color: #fff;
+}
+.progressBar {
+	height: 5px;
+	border-bottom: 1px solid #fff;
+}
+.progressVal {
+	height: 100%;
+	width: 0;
+	background-color: #fff;
+}
+.bottom-ctrl {
+	margin-top: 10px;
+	display: flex;
+}
+.bottom-ctrl span {
+	display: inline-block;
+	cursor: pointer;
+	height: 24px;
+	line-height: 24px;
+	margin-left: 10px;
+}
+input[type="range"] {
+	width: 100px;
+}
